@@ -1,0 +1,285 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="shopping_site.shopping" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:smartForm="sap.ui.comp.smartform"
+	xmlns:smartField="sap.ui.comp.smartfield">
+	<SplitApp id="SplitApp">
+		<detailPages>
+			<Page id="p1" title="Welcome to MyShop" >
+				<content>
+					<Image src="Images/Welcome.jpg" width="100%" />
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout colums="L1 M1 S1" />
+						</f:layout>
+						<f:FormContainer>
+							<f:FormElement>
+								<f:fields>
+									<List items="{/Recent}" headerText="Recently Viewed" id="List"
+										select="itemPressed">
+										<StandardListItem title="{Title}"
+											description="{Description}" icon="{icon}" press="itemPressed"
+											type="Navigation" />
+										<layoutData>
+											<l:GridData span="L12 M12 S12" linebreak="false" />
+										</layoutData>
+									</List>
+								</f:fields>
+							</f:FormElement>
+						</f:FormContainer>
+					</f:Form>
+				</content>
+			</Page>
+
+			<Page id="p2" title="Samsung Galaxy S8" showNavButton="true" navButtonPress="onPressDetailBack">
+				<content>
+					<Panel>
+						<smartForm:SmartForm id="sf">
+							<smartForm:Group label="Specifictions">
+								<smartForm:GroupElement>
+									<smartField:SmartField value="ProductId" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField id="ram"
+										textLabel="RAM" value="{/Specs/0/galaxys8/RAM}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Display"
+										value="{/Specs/0/galaxys8/Display}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Camera"
+										value="{/Specs/0/galaxys8/Camera}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Processor"
+										value="{/Specs/0/galaxys8/Processor}" editable="false" />
+								</smartForm:GroupElement>
+							</smartForm:Group>
+						</smartForm:SmartForm>
+					</Panel>
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout colums="L1 M1 S1" />
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<f:FormElement>
+									<f:fields>
+										<Image src="Images/mobiles/images.jpg" width="100%">
+											<layoutData>
+												<l:GridData span="L7 M7 S7" indent="L2 M2 S2"
+													linebreak="false" />
+											</layoutData>
+										</Image>
+									</f:fields>
+								</f:FormElement>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button text="Buy Now" type="Accept" />
+					</Toolbar>
+				</footer>
+			</Page>
+
+			<Page id="p3" title="Dell Inspiron 3543" showNavButton="true" navButtonPress="onPressDetailBack">
+				<content>
+					<Panel>
+						<smartForm:SmartForm id="sf2">
+							<smartForm:Group label="Specifictions">
+								<smartForm:GroupElement>
+									<smartField:SmartField value="ProductId" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField id="ram1"
+										textLabel="RAM" value="{/Specs/0/Inspiron3543/RAM}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="OS"
+										value="{/Specs/0/Inspiron3543/OS}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Secondary"
+										value="{/Specs/0/Inspiron3543/Secondary}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Screen"
+										value="{/Specs/0/Inspiron3543/Screen}" editable="false" />
+								</smartForm:GroupElement>
+							</smartForm:Group>
+						</smartForm:SmartForm>
+					</Panel>
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout colums="L1 M1 S1" />
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<f:FormElement>
+									<f:fields>
+										<Image src="Images/laptops/lapy.jpg" width="100%">
+											<layoutData>
+												<l:GridData span="L7 M7 S7" indent="L2 M2 S2"
+													linebreak="false" />
+											</layoutData>
+										</Image>
+									</f:fields>
+								</f:FormElement>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button text="Buy Now" type="Accept" />
+					</Toolbar>
+				</footer>
+			</Page>
+
+			<Page id="p4" title="Sony Bravia" showNavButton="true" navButtonPress="onPressDetailBack">
+				<content>
+					<Panel>
+						<smartForm:SmartForm id="sf3">
+							<smartForm:Group label="Specifictions">
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Sound System"
+										value="{/Specs/0/Bravia/Sound}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Dolby"
+										value="{/Specs/0/Bravia/dolby}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Refresh Rate"
+										value="{/Specs/0/Bravia/Refresh}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Warranty"
+										value="{/Specs/0/Bravia/Warranty}" editable="false" />
+								</smartForm:GroupElement>
+							</smartForm:Group>
+						</smartForm:SmartForm>
+					</Panel>
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout colums="L1 M1 S1" />
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<f:FormElement>
+									<f:fields>
+										<Image src="Images/tv.jpg" width="100%">
+											<layoutData>
+												<l:GridData span="L7 M7 S7" indent="L2 M2 S2"
+													linebreak="false" />
+											</layoutData>
+										</Image>
+									</f:fields>
+								</f:FormElement>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button text="Buy Now" type="Accept" />
+					</Toolbar>
+				</footer>
+			</Page>
+			
+			<Page id="clothing" title="Trendy Fashion" showNavButton="true" navButtonPress="onPressDetailBack">
+				<content>
+					<Panel>
+						<smartForm:SmartForm id="clothes">
+							<smartForm:Group label="Specifictions">
+								<smartForm:GroupElement>
+									<smartField:SmartField id="aa" textLabel="Name"
+										value="{/name}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Price"
+										value="{/amount}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="Size available"
+										value="{/size}" editable="false" />
+								</smartForm:GroupElement>
+								<smartForm:GroupElement>
+									<smartField:SmartField textLabel="COD"
+										value="{/cod}" editable="false" />
+								</smartForm:GroupElement>
+							</smartForm:Group>
+						</smartForm:SmartForm>
+					</Panel>
+					<f:Form>
+						<f:layout>
+							<f:ResponsiveGridLayout colums="L1 M1 S1" />
+						</f:layout>
+						<f:formContainers>
+							<f:FormContainer>
+								<f:FormElement>
+									<f:fields>
+										<Image src="{/pic}" width="100%">
+											<layoutData>
+												<l:GridData span="L7 M7 S7" indent="L2 M2 S2"
+													linebreak="false" />
+											</layoutData>
+										</Image>
+									</f:fields>
+								</f:FormElement>
+							</f:FormContainer>
+						</f:formContainers>
+					</f:Form>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer />
+						<Button text="Buy Now" type="Accept" />
+					</Toolbar>
+				</footer>
+			</Page>
+
+		</detailPages>
+		<masterPages>
+			<Page title="Categories" id="mp1">
+				<content>
+					<List id="category">
+						<items>
+							<StandardListItem title="Electronics" type="Navigation"
+								press="category" />
+							<StandardListItem title="Clothing" type="Navigation"
+								press="category" />
+							<StandardListItem title="Footwear" type="Navigation"
+								press="category" />
+							<StandardListItem title="Accessories" type="Navigation"
+								press="category" />
+							<StandardListItem title="Softwares" type="Navigation"
+								press="category" />
+						</items>
+					</List>
+				</content>
+			</Page >
+
+			 <Page id="mp2" title="Category" showNavButton="true" navButtonPress="onPressMasterBack">
+				<content>
+					<List id="list2">
+						
+					</List>
+				</content>
+			</Page> 
+			
+				 <Page id="mp3" showNavButton="true" navButtonPress="onPressMasterBack">
+				<content>
+					<List id="list3" items="{clothing/categories/0/categories}"  select="inner">
+						<StandardListItem title="{name}" info="{amount}"     press="inner"/>
+					</List>
+				</content>
+			</Page> 
+		</masterPages>
+	</SplitApp>
+</core:View>

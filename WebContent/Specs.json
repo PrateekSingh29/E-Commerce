@@ -1,0 +1,23 @@
+{
+	"Specs": [{
+		"galaxys8": {
+			"RAM": "4GB",
+			"Display": "6.2 inch Quad HD+",
+			"Camera": "12MP Rear Camera | 8MP Front Camera",
+			"Processor": "Exynos 8895 Processor"
+		},
+		"Inspiron3543": {
+			"RAM": "4GB DDR4",
+			"OS": "64 bit Windows 10 Operating System",
+			"Secondary": "1 TB HDD",
+			"Screen": "14 inch Display"
+		},
+		"Bravia": {
+			"Sound": "8 W x 2 Speaker Output",
+			"dolby": "Dolby Digital, Dolby Digital Plus, Dolby Pulse",
+			"Refresh": "200 Hz Refresh Rate",
+			"Warranty": "1 year sony Domestic Warranty"
+		}
+		
+}]
+}

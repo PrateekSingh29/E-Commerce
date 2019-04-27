@@ -1,0 +1,565 @@
+{
+	"clothing": {
+		"categories": [
+			{
+				"name": "Women",
+				"categories": [
+					{
+						"name": "Casual Red Dress",
+						"amount": 1699,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_wo_CRD",
+						"pic": "Images/Women/red_dress.jpg"  	
+				 	 	},
+					{
+						"name": "Short Black Dress",
+						"amount": 4799,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_wo_SBD",
+						"pic": "Images/Women/black_dress.jpg"
+					},
+					{
+						"name": "Long Blue Dinner Dress",
+						"amount": 1099,
+						"currency": "INR",
+						"size": "L",
+						"cod": "not available",
+						"key":"clo_wo_LBDD",
+						"pic": "Images/Women/blue.jpg"
+					},
+					{
+						"name": "Printed Shirt",
+						"amount": 2499,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_wo_PS",
+						"pic": "Images/Women/printed-tops.png"
+					},
+					{
+						"name": "Tank Top",
+						"amount": 1499,
+						"currency": "INR",
+						"size": "S",
+						"cod": "not available",
+						"key":"clo_wo_TT",
+						"pic": "Images/Women/tankTop.jpg"
+					},
+					{
+						"name": "Red Pant",
+						"amount": 329,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_wo_RP",
+						"pic": "Images/Women/redPant.jpg"
+					},
+					{
+						"name": "Skinny Jeans",
+						"amount": 4499,
+						"currency": "INR",
+						"size": "S",
+						"cod": " not available",
+						"key":"clo_wo_SJ",
+						"pic": "Images/Women/jeans.jpg"
+					},
+					{
+						"name": "Black Jeans",
+						"amount": 999,
+						"currency": "INR",
+						"size": "XS",
+						"cod": "available",
+						"key":"clo_wo_BJ",
+						"pic": "Images/Women/blackjeans.jpg"
+					},
+					{
+						"name": "Relaxed Fit Jeans",
+						"amount": 5699,
+						"currency": "INR",
+						"size": "L",
+						"cod": "available",
+						"key":"clo_wo_RFJ",
+						"pic": "Images/Women/relaxed.jpg"
+					},
+					{
+						"name": "Striped Skirt",
+						"amount": 2499,
+						"currency": "INR",
+						"size": "M",
+						"key":"clo_wo_SS",
+						"pic": "Images/Women/strippedskirt.jpg"
+					},
+					{
+						"name": "Black Skirt",
+						"amount": 4499,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_wo_BS",
+						"pic": "Images/Women/blackSkirt.jpg"
+					}
+				]
+			},
+			{
+				"name": "Men",
+				"categories": [
+					{
+						"name": "Black T-shirt",
+						"amount": 999,
+						"currency": "INR",
+						"size": "XL",
+						"cod": "available",
+						"key":"clo_me_BTS",
+						"pic": "Images/Mens/blackTshirt.jpg"
+					},
+					{
+						"name": "Polo T-shirt",
+						"amount": 4799,
+						"currency": "INR",
+						"size": "M",
+						"cod": " not available",
+						"key":"clo_me_PTS",
+						"pic": "Images/Mens/poloMens.jpg"
+					},
+					{
+						"name": "White Shirt",
+						"amount": 1099,
+						"currency": "INR",
+						"size": "L",
+						"cod": "available",
+						"key":"clo_me_WS",
+						"pic": "Images/Mens/whiteShirt.jpg"
+					},
+					{
+						"name": "Blue Jeans",
+						"amount": 7899,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_me_BJ",
+						"pic": "Images/Mens/MensJeans.jpg"
+					},
+					{
+						"name": "Stretch Pant",
+						"amount": 5499,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_me_SP",
+						"pic": "Images/Mens/strechedPants.jpg"
+					},
+					{
+						"name": "Trouser Short",
+						"amount": 6299,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_me_TS",
+						"pic": "Images/Mens/MensShorts.jpg"
+					},
+					{
+						"name": "Slim Short",
+						"amount": 4499,
+						"currency": "INR",
+						"size": "S",
+						"cod": "not available",
+						"key":"clo_me_SS",
+						"pic": "Images/Mens/SLimShorts.jpg"
+					}
+				]
+			},
+			{
+				"name": "Girls",
+				"categories": [
+					{
+						"name": "Red T-shirt",
+						"amount": 1699,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_gi_RTS",
+						"pic": "Images/girls/redtop.jpg"
+					},
+					{
+						"name": "Tunic Top",
+						"amount": 4799,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_gi_TT",
+						"pic": "Images/girls/tunicTop.jpg"
+					},
+					{
+						"name": "Fuzzy Sweater",
+						"amount": 1099,
+						"currency": "INR",
+						"size": "L",
+						"cod": "available",
+						"key":"clo_gi_FS",
+						"pic": "Images/girls/plum-stay-cozy-fuzzy-sweater.jpg"
+					},
+					{
+						"name": "Blue Jeans",
+						"amount": 2499,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_gi_BJ",
+						"pic": "Images/girls/blueJeans.jpg"
+					},
+					{
+						"name": "Red Pant",
+						"amount": 5499,
+						"currency": "INR",
+						"size": "S",
+						"key":"clo_gi_RP",
+						"pic": "Images/girls/redPantGirls.jpg"
+					},
+					{
+						"name": "Jeans",
+						"amount": 3299,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_gi_J",
+						"pic": "Images/girls/grlsJeans.jpg"
+					},
+					{
+						"name": "Sport Pajama",
+						"amount": 1499,
+						"currency": "INR",
+						"size": "S",
+						"cod": "not available",
+						"key":"clo_gi_SP",
+						"pic": "Images/girls/sportsPajama.jpg"
+					}
+				]
+			},
+			{
+				"name": "Boys",
+				"categories": [
+					{
+						"name": "Black T-shirt with Print",
+						"amount": 1699,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_bo_RTSWP",
+						"pic": "Images/boys/boysBlackTshirt.jpg"
+					},
+					{
+						"name": "Blue Shirt",
+						"amount": 4799,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_bo_BS",
+						"pic": "Images/boys/BlueShirtBoys.jpg"
+					},
+					{
+						"name": "Yellow Sweater",
+						"amount": 6399,
+						"currency": "INR",
+						"size": "L",
+						"cod": " not available",
+						"key":"clo_bo_YS",
+						"pic": "Images/boys/tellowSweater.jpg"
+					},
+					{
+						"name": "Blue Jeans",
+						"amount": 4499,
+						"currency": "INR",
+						"size": "M",
+						"cod": "not available",
+						"key":"clo_bo_BJ",
+						"pic": "Images/boys/BoysJeans.jpg"
+					},
+					{
+						"name": "Brown Pant",
+						"amount": 8999,
+						"currency": "INR",
+						"size": "S",
+						"cod": "available",
+						"key":"clo_bo_BP",
+						"pic": "Images/boys/BrownsPant.jpg"
+					},
+					{
+						"name": "Sport Short",
+						"amount": 3299,
+						"currency": "INR",
+						"size": "M",
+						"cod": "available",
+						"key":"clo_bo_SS",
+						"pic": "Images/boys/SportsShorts.jpg"
+					}
+				]
+			}
+		]
+	},
+	"electronic": {
+		"categories": [
+			{
+				"name": "Mobiles",
+				"categories": [
+					{
+						"name": "Samsung Galaxy S8",
+						"RAM": "4GB",
+						"Display": "6.2 inch Quad HD+",
+						"Camera": "12MP Rear Camera | 8MP Front Camera",
+						"Processor": "Exynos 8895 Processor",
+						"pic": "Images/mobiles/images.jpg"
+					},
+					{
+						"name": "Oneplus 5",
+						"RAM": "8GB",
+						"Display": "5.5 inch Quad HD",
+						"Camera": "20MP+16MP Rear Camera|8MP Front Camera",
+						"Processor": "Qualcomm MSM8998 Snapdragon 835",
+						"pic": "Images/mobiles/1+5.jpg"
+					},
+					{
+						"name": "iPhone 7+",
+						"ROM": "128GB",
+						"Display": "5.5 inch Retina HD Display",
+						"Camera": "12MP + 12MP Dual Rear Camera | 7MP Front Camera",
+						"Processor": "A10 Fusion Chip with 64-bit Architecture and Embedded M10 Motion Co-processor Processor",
+						"pic": "Images/mobiles/7+.jpg"
+					},
+					{
+						"name": "Moto G5 Plus",
+						"RAM ": "4 GB",
+						"Display": "5.2 inch Full HD Display",
+						"Camera": "12MP Rear Camera | 5MP Front Camera",
+						"Processor": "Qualcomm Snapdragon 625 Processor",
+						"pic": "Images/mobiles/g5+.jpg"
+					}
+				]
+			},
+			{
+				"name": "Laptops",
+				"categories": [
+					{
+						"name": "Apple MacBook Air",
+						"RAM": "8GB DDR4",
+						"OS": "Mac OS X",
+						"Secondary": "128GB",
+						"Screen": "14 inch Display",
+						"pic": "Images/laptops/mac.png"
+					},
+					{
+						"name": "Dell Inspiron 3543",
+						"RAM": "4 GB",
+						"OS": "Windows 10 Home",
+						"Secondary": "1 TB HDD",
+						"Screen": "14 inch Display",
+						"pic": "Images/laptops/lapy.jpg"
+					},
+					{
+						"name": "HP 15-BE015TU Notebook",
+						"RAM": "8 GB",
+						"OS": "Windows 10",
+						"Secondary": "1 TB HDD",
+						"Screen": "15.6 inch Display",
+						"pic": "Images/laptops/hp.jpg"
+					},
+					{
+						"name": "Lenovo Ideapad 110 Notebook",
+						"RAM": "4 GB",
+						"OS": "Ubuntu",
+						"Secondary": "1 TB HDD",
+						"Screen": "15.6 inch Display",
+						"pic": "Images/laptops/lenovo.jpg"
+					}
+				]
+			}
+		]
+	},
+	"Footwear": {
+		"categories": [
+			{
+				"name": "Women",
+				"categories": [
+					{
+						"name": "Nike Runner",
+						"amount": 16.99,
+						"size": "S",
+						"pic": "Images/footwear/nike.jpg"
+					},
+					{
+						"name": "adidas Runner",
+						"amount": 1500,
+						"size": "M",
+						"pic": "Images/footwear/adidas.jpg"
+					},
+					{
+						"name": "Asian Sports",
+						"amount": 1099,
+						"size": "L",
+						"pic": "Images/footwear/asian.jpg"
+					},
+					{
+						"name": "Puma Sports",
+						"amount": 2499,
+						"size": "M",
+						"pic": "Images/footwear/puma.jpg"
+					}
+				]
+			},
+			{
+				"name": "Men",
+				"categories": [
+					{
+						"name": "Nike Runner",
+						"amount": 1699,
+						"size": "S",
+						"pic": "Images/footwear/nikem.jpg"
+					},
+					{
+						"name": "adidas Superstar",
+						"amount": 1500,
+						"size": "M",
+						"pic": "Images/footwear/superstar.jpg"
+					},
+					{
+						"name": "Russian Sports",
+						"amount": 1099,
+						"size": "L",
+						"pic": "Images/footwear/sportsm.jpg"
+					},
+					{
+						"name": "Puma Sneakers",
+						"amount": 2499,
+						"size": "M",
+						"pic": "Images/footwear/puma.jpg"
+					}
+				]
+			},
+			{
+				"name": "Girls",
+				"categories": [
+					{
+						"name": "Nike Runner",
+						"amount": 1699,
+						"size": "S",
+						"pic": "Images/footwear/nike.jpg"
+					},
+					{
+						"name": "adidas Runner",
+						"amount": 1500,
+						"size": "M",
+						"pic": "Images/footwear/adidas.jpg"
+					},
+					{
+						"name": "Asian Sports",
+						"amount": 1099,
+						"size": "L",
+						"pic": "Images/footwear/asian.jpg"
+					},
+					{
+						"name": "Puma Sports",
+						"amount": 2499,
+						"size": "M",
+						"pic": "Images/footwear/puma.jpg"
+					}
+				]
+			},
+			{
+				"name": "Boys",
+				"categories": [
+					{
+						"name": "Nike Sneakers",
+						"amount": 1699,
+						"size": "S",
+						"pic": "Images/footwear/nikem.jpg"
+					},
+					{
+						"name": "adidas Superstar",
+						"amount": 1500,
+						"size": "M",
+						"pic": "Images/footwear/superstar.jpg"
+					},
+					{
+						"name": "Woodland Adventure",
+						"amount": 3099,
+						"size": "L",
+						"pic": "Images/footwear/sportsm.jpg"
+					},
+					{
+						"name": "Puma Sneakers",
+						"amount": 3499,
+						"size": "M",
+						"pic": "Images/footwear/puma.jpg"
+					}
+				]
+			}
+		]
+	},
+	"accessories": {
+		"categories": [
+			{
+				"name": "Mens",
+				"categories": [
+					{
+						"name": "Sunglasses",
+						"amount": 3699,
+						"currency": "INR",
+						"pic": "Images/acc/sunglass.jpg"
+					},
+					{
+						"name": "Beanie",
+						"amount": 1799,
+						"currency": "INR",
+						"pic": "Images/acc/beanie.jpg"
+					},
+					{
+						"name": "Scarf",
+						"amount": 1599,
+						"currency": "INR",
+						"pic": "Images/acc/scarf.jpg"
+					}
+				]
+			},
+			{
+				"name": "Womens",
+				"categories": [
+					{
+						"name": "Necklace",
+						"amount": 1699,
+						"currency": "INR",
+						"pic": "Images/acc/necklace.jpg"
+					},
+					{
+						"name": "Bracelet",
+						"amount": 4799,
+						"currency": "INR",
+						"pic": "Images/acc/bracelet.jpg"
+					},
+					{
+						"name": "Gold Ring",
+						"amount": 3999,
+						"currency": "INR",
+						"pic": "Images/acc/ring.jpg"
+					},
+					{
+						"name": "Little Black Bag",
+						"amount": 1699,
+						"currency": "INR",
+						"size": "S",
+						"pic": "Images/acc/blackbag.jpg"
+					},
+					{
+						"name": "Grey Shopper",
+						"amount": 4799,
+						"currency": "INR",
+						"size": "M",
+						"pic": "Images/acc/shopper.jpg"
+					}
+				]
+			}
+		]
+	}
+}

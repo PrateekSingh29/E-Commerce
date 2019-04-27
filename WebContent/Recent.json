@@ -1,0 +1,19 @@
+{
+"Recent":[
+{
+"Title":"Samsung Galaxy S8+",
+"Description": "The Samsung Galaxy S8 is powered by 1.9GHz octa-core Samsung Exynos 8895 processor and it comes with 4GB of RAM. ",
+"icon":"Images/mobiles/images.jpg"
+},
+{
+"Title":"Dell inspiron 3543",
+"Description": "Measuring 37.6 x 25.9 x 3.13 cm, it has an optional HD Touch feature, a touchpad, dual speakers, a slim design, and a standard keyboard for an extra smooth and easy input. ",
+"icon":"Images/laptops/lapy.jpg"
+},
+{
+"Title":"Sony Bravia",
+"Description": "With a slim design and a narrow bezel, the TV is designed to look very stylish in your TV unit. With the built in subwoofer and ClearPhase technology, the TV provides clear and powerful sound, making your music and movies more enjoyable.  ",
+"icon":"Images/tv.jpg"
+}
+]
+}
